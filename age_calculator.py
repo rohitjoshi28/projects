@@ -1,7 +1,7 @@
 b_year = input("Enter Your Birth Year:")
 
 if not b_year.isdigit(): # it will give error if birth year is not integer 
-    print("Invalide")
+    print("Invalid")
     exit()
 
 b_year = int(b_year) #it convert the string to integer because b.year is save as string

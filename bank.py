@@ -18,6 +18,9 @@ def create():
 def deposit():
     account_number = int(input("Enter Acount Number: "))
     new_deposit = int(input("Enter Amount: "))
+    
+    if new_deposit > account[account_number]["balance"]:
+        print("Invalid Amount")
 
     account[account_number]["balance"] += new_deposit
 

@@ -4,6 +4,7 @@ s3 = int(input("Enter Third Student Marks:"))
 s4 = int(input("Enter Fourth Student Marks:"))
 s5 = int(input("Enter Fifth Student Marks:"))
 
+
 if s1 <= 33 :
     print("First Student is Fail")
 if s2 <= 33 :
